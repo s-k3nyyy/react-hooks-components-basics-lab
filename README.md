@@ -57,3 +57,4 @@ where you can see one possible solution to this lesson.
 
 [solution branch]:
   https://github.com/learn-co-curriculum/react-hooks-running-tests/tree/solution
+# collins-njuguna-React-Components-Basics-Lab
