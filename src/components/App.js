@@ -1,5 +1,6 @@
 import React from "react";
-
+import  Home from "./Home;"
+import About from "./About"
 function NavBar() {
   return (
     <nav>
@@ -12,21 +13,29 @@ function Home() {
   return (
     <div id="home">
       <h1>Home</h1>
+
     </div>
   );
 }
+function About() {
+  return (
+    <div id="about">
+      <h1>about</h1>
 
-{/* write an <About> component here */}
+    </div>
+  );
+}
 
 
 function App() {
   return (
     <div>
       <NavBar />
-      {/* add the <Home> component here */}
-      {/* add your <About> component here */}
+      < Home/>
+      < About />
     </div>
   );
 }
 
 export default App;
+
